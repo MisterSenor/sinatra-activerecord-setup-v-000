@@ -1,6 +1,9 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
+gem 'rake'
+gem 'activerecord', '4.2.5'
+gem 'sinatra-activerecord'
 gem 'sinatra'
 gem 'thin'
 gem 'require_all'
